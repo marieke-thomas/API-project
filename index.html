@@ -1,11 +1,27 @@
 <html>
 <head>
     <meta charset="utf-8">
-  <title>Which jacket should I bring?</title>
+  <title>What should I wear?</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 <body>
-    <p>testing</p>
-    <script type="text/javascript" src="script.js"></script>
+    <div id="wrapper">
+        <h1>Should I wear shorts today?</h1>
+        <div id="shorts"><img src="https://previews.123rf.com/images/ylivdesign/ylivdesign1612/ylivdesign161203710/67408169-beach-shorts-icon-cartoon-illustration-of-beach-shorts-vector-icon-for-web.jpg" height=170px></div>
+        <div id="directions" class="textLine">Enter your city or zip code below to find out what to wear.</div>
+        <div id="banner">
+            <div class="column">City: <input type="text" id="inputCity"></div>
+            <div class="column">or</div>
+            <div class="column">Zip Code: <input type="text" id="inputZip"></div>
+            <br>
+            <br>
+            <br>
+            <div id="buttonContainer"><button id="button">What should I wear?</button></div>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+        <div id="response" class="textLine"></div>
+        <div id="picture"></div>
+    </div>
 </body>
 
 </html>
