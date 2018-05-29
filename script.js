@@ -42,7 +42,7 @@ function printTemp(x) {
 
 function clothing(temp) {
     if (temp>75){
-        picture.innerHTML = "<img src=\"https://static.boredpanda.com/blog/wp-content/uploads/2015/01/crochet-shorts-schuyler-ellers-lord-von-schmitt-1.jpg\">";
+        picture.innerHTML = "<img src='https://static.boredpanda.com/blog/wp-content/uploads/2015/01/crochet-shorts-schuyler-ellers-lord-von-schmitt-1.jpg'>";
         return "shorts/dress";
     } else if (temp>65){
         picture.innerHTML = "<img src='https://i.pinimg.com/originals/86/d0/ed/86d0eda67396daad600f807c3376f359.jpg'>";
@@ -51,13 +51,13 @@ function clothing(temp) {
         picture.innerHTML = "<img src='https://i.pinimg.com/originals/82/af/53/82af53823cbaf7c776f3997d5414910a.jpg'>";
         return "pants and a light jacket"
     } else if (temp>45){
-        picture.innerHTML = "<img src='https://cdn8.bigcommerce.com/s-eh06w/images/stencil/1280x1280/products/803/5381/ps_couture_designer_peacoat_14072.1410851136.1280.1280__61629.1428421592.gif?c=2&imbypass=on'>";
-        return "peacoat/warm jacket"
+        picture.innerHTML = "<img src='https://cdn8.bigcommerce.com/s-eh06w/images/stencil/1280x1280/products/803/5381/ps_couture_designer_peacoat_14072.1410851136.1280.1280__61629.1428421592.gif?c=2&imbypass=on' height=500px>";
+        return "a peacoat/warm jacket"
     } else if (temp>0){
         picture.innerHTML = "<img src='https://cdn-images-1.medium.com/max/600/0*CuIufkUeRUCb3bs_.'>";
-        return "down-stuffed jacket, hat, and gloves"
+        return "a down-stuffed jacket, hat, and gloves"
     } else {
-        picture.innerHTML = "<ing src='https://media4.s-nbcnews.com/j/newscms/2016_04/948536/secondeunpic_db1911a449fa610566cb2f84c67f9df8.fit-760w.jpg'>";
+        picture.innerHTML = "<img src='https://media4.s-nbcnews.com/j/newscms/2016_04/948536/secondeunpic_db1911a449fa610566cb2f84c67f9df8.fit-760w.jpg' height=750px>";
         return "pajamas, because there is no way you should go outside today"
     }
 }
